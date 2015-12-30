@@ -1,0 +1,50 @@
+.collection .collection-item {
+  padding: 0;
+}
+.collection label {
+  display: block;
+  padding: 10px 20px;
+}
+.collection label:hover {
+  cursor: pointer;
+}
+
+.block {
+  background-color: #F5F2F0;
+  padding: 20px;
+  min-height: 100px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.gt-control {
+  text-align: right;
+  display: none;
+}
+
+#saveButton, .removeButton {
+  padding: 5px 30px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.removeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f94f25;
+  color: #fff;
+}
+
+.active {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
